@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viepoint" content="width=device-width", initial-scale="1.0">
+    <title>Personal Porfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Aspiring Developer</p>
+            <h1>Hi, I'm <span>Sai</span><br>Krishna From India,</h1>
+        </div>
+    </div>
+    <!------abou-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="image.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Tech-savvy, and relentless learner, embracing cutting-edge 
+                       technologies.Committed to continuous growth, they eagerly 
+                       explore new tools and frameworks to stay ahead in the 
+                       ever-evolving world of technology.
+                     </p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Pyhon</span><br>Developer</li>
+                            <li><span>DSA</span><br>Using Python</li>
+                            <li><span>UI/UX</span><br>Designing web interfaces</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Brainovision</span><br>Web Development Intern</li>
+                            <li><span>Eduskills</span><br>Cyber Security Virtual Internship</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>Chalapathi Institute of Technology</li>
+                            <li><span>2018-2020</span><br>NRI Junior College</li>
+                        </ul>
+             </div>
+        </div>
+    </div>
+</div>
+</div>
+<!------services----->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+                <h2>Tech influencer</h2>
+                <p>Tech Influencer with a dedicated following of 16K+ on Instagram, specializing in 
+                    sharing insightful tech-related concepts and promoting online security and cyber safety</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/Ux Design</h2>
+                <p>Passionate UI/UX designer with a focus on 
+                    creating visually captivating and user-friendly digital experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-film"></i>
+                <h2>Video Editing</h2>
+                <p>Committed to delivering top-notch video content that engages
+                     audiences and exceeds client expectations. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="chatbot.png">
+                <div class="layer">
+                    <h3><b>Chat Bot</b></h3>
+                    <p>Chatbot in Python involves using Natural Language Processing (NLP) techniques and libraries to 
+                       understand and respond to user input.</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="porfolio1.png">
+                <div class="layer">
+                    <h3><b>Portfolio Website</b></h3>
+                    <p>Created a Personal Portfolio website 
+                        using HTM and CSS</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="bus.png">
+                <div class="layer">
+                    <h3><b>Bus Reservation</b></h3>
+                    <p>This system is based on a concept to reserve bus ticket. From this system, the user can view the bus list,book tickets, 
+                        cancel bookings and check the bus status board</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div> 
+</div>
+<!------Contact form----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>saikota.in@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8919807919</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/sai0x99"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://Instagram.com/cyberisky"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/k-n-sai-krishna-0a2368207/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="My-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-left">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Eame" required>
+                    <textarea  type="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Sai. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       
+    } 
+</script>
+</body>
+</html>
