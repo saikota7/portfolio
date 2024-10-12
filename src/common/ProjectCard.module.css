@@ -1,0 +1,35 @@
+.projectCard {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  
+  /* Set the default icon and text color to green */
+  .iconLink {
+    text-decoration: none;
+    color: green !important; /* Use !important to enforce the green color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Optional hover effect if you want to change the color on hover */
+  .iconLink:hover {
+    color: darkgreen;
+  }
+  .projectDescription {
+    font-size: 12px; /* Adjust the size as per your preference */
+    color: #666; /* Optional: adjust the text color as well */
+  }

@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+    img {
+      max-width: 250px;
+      align-self: center;
+      background-color: var(--project-card-bg);
+      border-radius: 20px;
+    }
+  
+    a {
+      width: fit-content;
+      text-decoration: none;
+      color: #222;
+      transition: transform 200ms ease-in-out;
+    }
+  
+    a:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* space between each project */
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    gap: 10px; /* space between the icons */
+    margin-top: 10px; /* space between the project and icons */
+    align-items: center; /* Center the icons */
+  }
+  
+  .iconLink {
+    font-size: 20px;
+    color: green;
+    transition: color 0.3s ease;
+  }
+  
+  .iconLink:hover {
+    color: #007bff; /* hover effect */
+  }
+  @media (width >= 800px) {
+    .projectsContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 0 30px;
+    }
+  }
+
+  :root {
+    --icon-color-default: green; /* Default icon color */
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --icon-color-default: green; /* Keep green for dark mode as well */
+    }
+  }
+  
+
